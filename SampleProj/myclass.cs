@@ -8,5 +8,6 @@ namespace SampleProj
 {
     class myclass
     {
+        public int Type { get; set; }
     }
 }
