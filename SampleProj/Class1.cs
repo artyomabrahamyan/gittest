@@ -11,11 +11,9 @@ namespace SampleProj
     {
         public static void Some()
         {
-<<<<<<< HEAD
-            Console.WriteLine("Hi");
-=======
+
             Console.WriteLine("Bye");
->>>>>>> second-branch
+
         }
     }
 }
