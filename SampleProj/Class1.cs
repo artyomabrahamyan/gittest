@@ -8,5 +8,9 @@ namespace SampleProj
 {
     class Class1
     {
+        public static void Some()
+        {
+            Console.WriteLine("Hi");
+        }
     }
 }
