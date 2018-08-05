@@ -16,7 +16,7 @@ namespace SampleProj
             Console.WriteLine("This is from testing");
             int x = 0;
             int y = 10;
-
+            Exception e = new Exception();
             double d = 5;
         }
     }
@@ -24,6 +24,8 @@ namespace SampleProj
     interface another
     {
         void Create();
+
+        double Dummy();
 
     }
 }
