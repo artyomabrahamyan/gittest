@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SampleProj
 {
-    class Class1
+    class Class1 : myclass
     {
         public static void Some()
         {
