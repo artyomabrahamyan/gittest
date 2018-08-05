@@ -16,9 +16,13 @@ namespace SampleProj
             Console.WriteLine("See you!.");
         }
 
+<<<<<<< HEAD
         public static void SomeMethod2()
         {
             Console.WriteLine(nameof(SomeMethod2));
         }
+=======
+        public int MyProperty { get; set; }
+>>>>>>> 11cc8f9dfc2b32f598190bd9b28c3900fd410021
     }
 }
