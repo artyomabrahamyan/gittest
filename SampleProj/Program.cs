@@ -12,7 +12,9 @@ namespace SampleProj
     {
         static void Main(string[] args)
         {
+            Random r = new Random();
             Console.WriteLine("This is from testing");
+            double d = 5;
         }
     }
 }
