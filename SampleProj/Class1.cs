@@ -15,5 +15,7 @@ namespace SampleProj
             Console.WriteLine("Bye");
             Console.WriteLine("See you!.");
         }
+
+        public int MyProperty { get; set; }
     }
 }
