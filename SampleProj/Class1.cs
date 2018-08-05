@@ -15,5 +15,10 @@ namespace SampleProj
             Console.WriteLine("Bye");
             Console.WriteLine("See you!.");
         }
+
+        public static void SomeMethod2()
+        {
+            Console.WriteLine(nameof(SomeMethod2));
+        }
     }
 }
