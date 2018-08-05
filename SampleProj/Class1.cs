@@ -12,6 +12,7 @@ namespace SampleProj
         public static void Some()
         {
             Console.WriteLine("Bye");
+            Console.WriteLine("See you!.");
         }
     }
 }
