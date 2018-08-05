@@ -21,6 +21,7 @@ namespace SampleProj
 
     interface another
     {
+        void Create();
 
     }
 }
