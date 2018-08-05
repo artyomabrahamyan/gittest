@@ -7,7 +7,18 @@ using System.Threading.Tasks;
 namespace SampleProj
 {
     class Some { }
-    
+
+    class A : B
+    {
+        
+
+    }
+
+    class B
+    {
+
+    }
+
     class Program
     {
         static void Main()
@@ -16,6 +27,7 @@ namespace SampleProj
             Console.WriteLine("This is from testing");
             int x = 0;
             int y = 10;
+            A a = new A();
 
             double d = 5;
         }
@@ -24,6 +36,8 @@ namespace SampleProj
     interface another
     {
         void Create();
+
+        void Something();
 
     }
 }
