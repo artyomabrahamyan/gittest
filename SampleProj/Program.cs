@@ -10,9 +10,17 @@ namespace SampleProj
     
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("This is from testing");
+            int x = 0;
+            int y = 10;
+
         }
+    }
+
+    interface another
+    {
+
     }
 }
