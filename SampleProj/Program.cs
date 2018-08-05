@@ -12,10 +12,12 @@ namespace SampleProj
     {
         static void Main()
         {
+            Random r = new Random();
             Console.WriteLine("This is from testing");
             int x = 0;
             int y = 10;
 
+            double d = 5;
         }
     }
 
