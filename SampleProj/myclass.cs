@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace SampleProj
 {
-    class myclass
+    class myclass : ICloneable
     {
         public int Type { get; set; }
+
+        public object Clone()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
