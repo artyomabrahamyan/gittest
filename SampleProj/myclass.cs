@@ -14,5 +14,7 @@ namespace SampleProj
         {
             throw new NotImplementedException();
         }
+
+        public int some { get; set; }
     }
 }
