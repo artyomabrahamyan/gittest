@@ -21,7 +21,5 @@ namespace SampleProj
             Console.WriteLine(nameof(SomeMethod2));
         }
         public int MyProperty { get; set; }
-
-        public double T1 { get; set; }
     }
 }
